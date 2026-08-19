@@ -1,5 +1,7 @@
 # Programa para calcular salario neto
-horas_trabajadas = 40
-pago_por_hora = 150
-salario_total = horas_trabajadas * pago_por_hora
-print("El salario totales:", salario_total)
+salario_bruto = float(input("Salario bruto: "))
+porcentaje = float(input("% impuestos: "))
+deducciones = float(input("Deducciones: "))
+impuesto = salario_bruto * (porcentaje / 100)
+salario_neto = salario_bruto - impuesto - deducciones
+print("Salario neto:", salario_neto)
