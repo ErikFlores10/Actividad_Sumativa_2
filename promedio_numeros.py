@@ -1,6 +1,6 @@
 # Programa para calcular el promedio de tres numeros
-num1 = 8
-num2 = 9
-num3 = 10
+num1 = float(input("Ingrese el primer número: "))
+num2 = float(input("Ingrese el segundo número: "))
+num3 = float(input("Ingrese el tercer número: "))
 promedio = (num1 + num2 + num3) / 3
 print("El promedio es:", promedio)
